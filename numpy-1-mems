@@ -1,0 +1,3 @@
+-> range and arange are almost similar. Only difference is that the later can take float also as step size while the former cannot.
+-> range(start, stop, step) and arange(start, stop, step). stop is always exclusive.
+-> np.linspace(start, stop, count) => this is used to identify equally spaced values between start and stop values (both inclusive).
