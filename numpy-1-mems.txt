@@ -1,0 +1,11 @@
+-> range and arange are almost similar. Only difference is that the later can take float also as step size while the former cannot.
+-> range(start, stop, step) and arange(start, stop, step). stop is always exclusive.
+-> np.linspace(start, stop, count) => this is used to identify equally spaced values between start and stop values (both inclusive).
+-> Irregular array length in np.array , creates a numpy array of lists. This is anamoly or not-useful.
+-> "-1" in reshape helps to identify the other variable out of rows or columns. Giving both rows and columns as -1 throws error.
+-> Evident that output of reshape from (3,4) to (4,3) is different from output of Transpose of (3,4).
+-> Flatten converts everything to 1D matrix.
+
+Slicing
+-> Generally, start value < stop value for +ve direction with any step size.
+-> For -ve direction, start value > stop value.
