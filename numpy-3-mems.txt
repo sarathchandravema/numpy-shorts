@@ -1,0 +1,7 @@
+-> Difference b/n ndarray.sort() and np.sort(ndarray) is that inplace and permanent sorting for earlier while the latter just sorts and returns but doesn't store.
+-> np.arg****() returns the indices of the function after arg. For instance, sort function sorts and returns the values while argsort returns the indices of the pre-sorted indices after sorting. Similarly max and argmax, min and argmin.
+-> In 2-D, axis=0 is vertical and axis=1 is horizontal.
+-> In case of multiple max values, arg function returns the value of first instance.
+-> In case of multi-dimension arrays, sorting or any function where axis is mandatory, it defaults to the last dimension or the dimension with the maximum value. In 2-d, it is axis=1, in 3-d array, axis=2.
+-> a,b,c = data.T => This results in providing individual rows to respective variables.
+-> np.unique - Gives the list of unique elements in an array. Provide return_count=True to return frequency of elements.
