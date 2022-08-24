@@ -1,7 +1,23 @@
 -> Difference b/n ndarray.sort() and np.sort(ndarray) is that inplace and permanent sorting for earlier while the latter just sorts and returns but doesn't store.
 -> np.arg****() returns the indices of the function after arg. For instance, sort function sorts and returns the values while argsort returns the indices of the pre-sorted indices after sorting. Similarly max and argmax, min and argmin.
+
+
 -> In 2-D, axis=0 is vertical and axis=1 is horizontal.
+
+
 -> In case of multiple max values, arg function returns the value of first instance.
 -> In case of multi-dimension arrays, sorting or any function where axis is mandatory, it defaults to the last dimension or the dimension with the maximum value. In 2-d, it is axis=1, in 3-d array, axis=2.
 -> a,b,c = data.T => This results in providing individual rows to respective variables.
+
+
 -> np.unique - Gives the list of unique elements in an array. Provide return_count=True to return frequency of elements.
+
+
+-> np.where can be used where one set of if-else is used. Refer to the exercise file for more deets. args - condition, result for +ve and result for -ve.
+
+
+-> Matmul differs from dot in 2 ways. Scaler multiplication is not allowed.only matrix style multiplication is followed. '@' is similar to matmul.
+-> Always recommended to use dot, since it is more flexible.
+
+
+-> np.tile is used to copy a matrix in the dimension specified.
