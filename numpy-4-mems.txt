@@ -1,0 +1,7 @@
+-> np.vectorize is used to apply a custom function (that is not available in numpy) on each element of numpy array.
+-> Function chaining also works on np.vectorize.
+-> This is equivalent to map function.
+
+-> numpy creates header for each array that contains address of first element, shape, ndim and a lot other details.
+-> When one array is assigned to another variable, it creates another header instead of copying data to new location.
+-> np creates new array when any operation is applied on the previous array. reshape is not considered as operation since the change in header is sufficient. Any redundant operations like adding zero, multiplying 1 are considered as operations and new header is created.
