@@ -1,0 +1,17 @@
+-> Default axis for np.split is zero, 0.
+-> np.concatenate, it takes default zero.
+-> 2d concatenate with 1d is not possible in any direction since the values for axis changes based on the direction.
+-> np.vstack and hstack can increase the dimension also. It is a limitation in np.concatenate
+
+-> Broadcasting Rules
+
+For each dimension ( going from right side)
+ 1. The size of each dimension should be same OR
+ 2. The size of one dimension should be 1
+
+
+Rule 1 : If two array differ in the number of dimensions, the shape of one with fewer dimensions is padded with ones on its leading( Left Side).
+Rule 2 : If the shape of two arrays doesnt match in any dimensions, the array with shape equal to 1 is stretched to match the other shape.
+Rule 3 : If in any dimesion the sizes disagree and neither equal to 1 , then Error is raised.
+
+> numpy 3d considers an array as (depth, row, col) while matplotlib considers as (row, col, depth)
